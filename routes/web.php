@@ -15,5 +15,20 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+<<<<<<< HEAD
 Route::get('/goods/goods',"Goods\GoodsController@goods");
 Route::get('/goods/goodsDetail',"Goods\GoodsController@goodsDetail");
+=======
+
+//注册跳转
+Route::get('reg', 'reg\RegController@reg');
+//注册
+Route::post('regs', 'reg\RegController@regs');
+
+Route::get('login', 'reg\RegController@login');
+
+Route::post('logins', 'reg\RegController@logins');
+
+Route::get('index', 'index\indexController@index');
+
+>>>>>>> b6190039495544564859e20022b60c859336cfe2
