@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="420149a7-d50c-487b-956c-241035d96394" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Goods/GoodsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Goods/GoodsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/GoodsModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/GoodsModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/animate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fakeLoader.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/fakeLoader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/magnific-popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/magnific-popup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/materialize.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/materialize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/materialize.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/materialize.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/owl.carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/owl.theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/owl.theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/owl.transitions.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/owl.transitions.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/font-awesome/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181121/4fae0076d493cd6670ce5c0ca9d9e6d8.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181121/4fae0076d493cd6670ce5c0ca9d9e6d8.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181121/a80e6e6de800e97e6a4e4c5f321a0a83.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181121/a80e6e6de800e97e6a4e4c5f321a0a83.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181121/b0916f6e3af162a91b2710778bac0df7.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181121/b0916f6e3af162a91b2710778bac0df7.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181124/0a494d386284a5dfaeeee217c9736ede.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181124/0a494d386284a5dfaeeee217c9736ede.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181124/5e2103d52eeef99aa880cb37d0185db9.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181124/5e2103d52eeef99aa880cb37d0185db9.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181124/6c5c609816dc6147458a711674a0321a.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181124/6c5c609816dc6147458a711674a0321a.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181124/6d0b2c98d07c2f390df5a7fc84173af8.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181124/6d0b2c98d07c2f390df5a7fc84173af8.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181124/8e55bd6955d64e97b3255649b573222a.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181124/8e55bd6955d64e97b3255649b573222a.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181124/9b542a83e14775f75a3d9180b27d5d2f.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181124/9b542a83e14775f75a3d9180b27d5d2f.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181124/bd11396e346dc19753fb209ced3fa131.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181124/bd11396e346dc19753fb209ced3fa131.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181124/d0584790dcca84cb7ad02d7f72bab582.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181124/d0584790dcca84cb7ad02d7f72bab582.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181124/fe959bea90040d22529d224c04fa9cd6.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181124/fe959bea90040d22529d224c04fa9cd6.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181126/2b07a602d276b5b32a4984576e1f8328.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181126/2b07a602d276b5b32a4984576e1f8328.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181126/78c251b88e801d3984943bfa13a520c4.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181126/78c251b88e801d3984943bfa13a520c4.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/009e3e7d0f9ad47033cf0546c8041d26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/009e3e7d0f9ad47033cf0546c8041d26.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/044782e0566e111a7a055b957eb1eb4c.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/044782e0566e111a7a055b957eb1eb4c.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/04c57bf4578e7fe19637803b82c4cf9b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/04c57bf4578e7fe19637803b82c4cf9b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/056afb56003e05370496f8a4e1c136d0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/056afb56003e05370496f8a4e1c136d0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/05a6715144876a444c6dac275fc27c20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/05a6715144876a444c6dac275fc27c20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/07a5c1c7bead1d7bda4ce280edee1116.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/07a5c1c7bead1d7bda4ce280edee1116.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/0b9ccb8ec100864f0556cc0a00f9cf37.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/0b9ccb8ec100864f0556cc0a00f9cf37.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/109b03fcb6b8b6fa5a12d78cd9695610.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/109b03fcb6b8b6fa5a12d78cd9695610.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/12cd58332ca929aa51319ae42e8c7e1b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/12cd58332ca929aa51319ae42e8c7e1b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/134c4b30b060c72a7f92299f77cd1102.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/134c4b30b060c72a7f92299f77cd1102.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/145b0067052990ec983f7b16bfbcfc48.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/145b0067052990ec983f7b16bfbcfc48.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/15419cc80b0ce1ff07f49bc91c73c64b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/15419cc80b0ce1ff07f49bc91c73c64b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/158ae1f2f9c7ae340f4a565fb34d6c72.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/158ae1f2f9c7ae340f4a565fb34d6c72.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/16db9a61880e478e0bfc8f66ce990a6e.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/16db9a61880e478e0bfc8f66ce990a6e.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/1736f6e83385fe497074908212e87989.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/1736f6e83385fe497074908212e87989.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/185ea5f0fd02f378aec6c644d800c1a5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/185ea5f0fd02f378aec6c644d800c1a5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/18ade0f979af3522e42b88523044f9cf.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/18ade0f979af3522e42b88523044f9cf.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/1cc85d803f4be6d6e0a6ae6035ace9a9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/1cc85d803f4be6d6e0a6ae6035ace9a9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/1f1d36ff169c656aafdf8f79a9e93723.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/1f1d36ff169c656aafdf8f79a9e93723.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/1ff1be8ab9ddc3be52a16bf0bb180224.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/1ff1be8ab9ddc3be52a16bf0bb180224.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/238633d3aa74bc8f6902e027cf14ff95.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/238633d3aa74bc8f6902e027cf14ff95.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/2720a0ad1e4879288ed3b917224c8a3b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/2720a0ad1e4879288ed3b917224c8a3b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/289ae010da968f619ef6fd35da31e926.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/289ae010da968f619ef6fd35da31e926.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/2be4192c2bd731ffb5253e6f47a07f69.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/2be4192c2bd731ffb5253e6f47a07f69.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/2ea1cd8af3e587674241cd352799fce2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/2ea1cd8af3e587674241cd352799fce2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/2fc4018f8e5f1beea59372370c951c15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/2fc4018f8e5f1beea59372370c951c15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/3ab4f93302364d87f74eec32817f546f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/3ab4f93302364d87f74eec32817f546f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/3c439011e1c2d0ddbbe17a4106d0e78d.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/3c439011e1c2d0ddbbe17a4106d0e78d.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/3daa63c564e131438fa8f14fc767fc40.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/3daa63c564e131438fa8f14fc767fc40.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/4018a1f3899797dcc58e0a35759e62a4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/4018a1f3899797dcc58e0a35759e62a4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/412fccf2fa7d99cf9a0a4452c25fa93a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/412fccf2fa7d99cf9a0a4452c25fa93a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/442939b5048a5e8951ea159a79157e63.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/442939b5048a5e8951ea159a79157e63.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/44b52db925c3b0aed2a3e7d06f8498cc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/44b52db925c3b0aed2a3e7d06f8498cc.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/489040fd7a459a5b5439336acb7537fa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/489040fd7a459a5b5439336acb7537fa.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/4db33fa372444793f9eeae8e5d8d55ec.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/4db33fa372444793f9eeae8e5d8d55ec.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/4fee03213c7822f43f7905b94f0e3927.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/4fee03213c7822f43f7905b94f0e3927.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/5528777bc2ae96bf1b0a9567e4d483f2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/5528777bc2ae96bf1b0a9567e4d483f2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/58148407529daa2b000efd64ad84c604.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/58148407529daa2b000efd64ad84c604.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/58d83e42bb81496cde24c47f2e7b92d0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/58d83e42bb81496cde24c47f2e7b92d0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/5b3592a4fd32a8ee2e49226a38296967.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/5b3592a4fd32a8ee2e49226a38296967.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/5d70d13c976c401ee09849ec30ee00cf.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/5d70d13c976c401ee09849ec30ee00cf.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/5e5cfe50ffd60d0b1c37fa4de5489b1a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/5e5cfe50ffd60d0b1c37fa4de5489b1a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/5f80c655572a5b4c1688649c13564662.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/5f80c655572a5b4c1688649c13564662.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/646f6093fc562868b2561a81e2714c50.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/646f6093fc562868b2561a81e2714c50.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/66d10eb278de4cc359f9faa1a3ebd9e6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/66d10eb278de4cc359f9faa1a3ebd9e6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/695cdd981d61079f7987944b109b6c44.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/695cdd981d61079f7987944b109b6c44.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/69fc242a5672f144a5ebbe002ec34802.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/69fc242a5672f144a5ebbe002ec34802.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/6b85d5204ffc758f380b7bf401e275d7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/6b85d5204ffc758f380b7bf401e275d7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/723dd40ca7d42342d2e358805940d99b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/723dd40ca7d42342d2e358805940d99b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/76ecfb1f70075885d7b57cf77339e986.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/76ecfb1f70075885d7b57cf77339e986.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/76fb19b106b723275506ecaa24c59f4b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/76fb19b106b723275506ecaa24c59f4b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/7a87b13f7f15d86347ac3c388509604f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/7a87b13f7f15d86347ac3c388509604f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/7b095500adf6c1edd282c30f53074242.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/7b095500adf6c1edd282c30f53074242.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/7c17fdba7951ddeaeb7eff9e0c022e1f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/7c17fdba7951ddeaeb7eff9e0c022e1f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/7fa0edc5b81cfc3f86cdbe17cff52c91.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/7fa0edc5b81cfc3f86cdbe17cff52c91.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/80fed78b98d94d09360f098c0c8fb7de.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/80fed78b98d94d09360f098c0c8fb7de.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/8553b72989e9aeeb5bb1842a551a80a6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/8553b72989e9aeeb5bb1842a551a80a6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/8b49d682195bd45014015b8b86faa34f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/8b49d682195bd45014015b8b86faa34f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/8dc2fce412faf0439b0c1b9183d884d8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/8dc2fce412faf0439b0c1b9183d884d8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/8de490c092088ff9f94e01782ad5e750.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/8de490c092088ff9f94e01782ad5e750.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/986ca8f470fec9f843295981fe47280d.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/986ca8f470fec9f843295981fe47280d.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/990e2f50f457b70572d9039625a53536.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/990e2f50f457b70572d9039625a53536.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/99373568dad2833fcdbc6c4e22c0fceb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/99373568dad2833fcdbc6c4e22c0fceb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/9a10688bbeacd9ef1d69b2c1afcfc36c.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/9a10688bbeacd9ef1d69b2c1afcfc36c.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/9bf87bf0d6c6b78e23afcefd555f10b0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/9bf87bf0d6c6b78e23afcefd555f10b0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/9e7ee20b8b3b0123d2c861c8b9399354.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/9e7ee20b8b3b0123d2c861c8b9399354.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/9ed4d8556daeb8b201a3bab0c1783978.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/9ed4d8556daeb8b201a3bab0c1783978.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/9f5ce6e85c59a30d9a1f85fe696fc64e.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/9f5ce6e85c59a30d9a1f85fe696fc64e.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/a0211541a450630e28f4fd5dda13fb6c.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/a0211541a450630e28f4fd5dda13fb6c.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/a1596385213e2c8108849edb72fd79c1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/a1596385213e2c8108849edb72fd79c1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/a259285e3ea86e008fff5fe5f5390c0a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/a259285e3ea86e008fff5fe5f5390c0a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/a6e39ee0842b64819905e6f18d4e1bb7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/a6e39ee0842b64819905e6f18d4e1bb7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/ae7c4a68b4cc8ebe8a27c1cf6cfe45a8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/ae7c4a68b4cc8ebe8a27c1cf6cfe45a8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/b8081606b91c0f64da1937dbdd1d8e90.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/b8081606b91c0f64da1937dbdd1d8e90.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/ba526a911ec60cfa1e054be25aedf012.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/ba526a911ec60cfa1e054be25aedf012.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/bab7026ecfca755b7845ce99e2dd03f1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/bab7026ecfca755b7845ce99e2dd03f1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/bad2c3cef7ba9afaad686a1ec01018e1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/bad2c3cef7ba9afaad686a1ec01018e1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/c380cb00d13a332fa95ea64c4432517f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/c380cb00d13a332fa95ea64c4432517f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/c3c8133cb9682b306f1ac718ab9fc2c4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/c3c8133cb9682b306f1ac718ab9fc2c4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/c3f572b733b0d287b27f67ad8e097692.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/c3f572b733b0d287b27f67ad8e097692.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/c4d5a1ce270cdecb12eea9c184ed29fb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/c4d5a1ce270cdecb12eea9c184ed29fb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/c6b93b13036df4e375bf66a88ee38f4f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/c6b93b13036df4e375bf66a88ee38f4f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/cd5e14dfad18673a452d1cfb03a1609d.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/cd5e14dfad18673a452d1cfb03a1609d.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/cec0a3e1f890a499f24a9ec134db1294.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/cec0a3e1f890a499f24a9ec134db1294.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/cecc685aa9af9d3ab1de1b056fd31c1a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/cecc685aa9af9d3ab1de1b056fd31c1a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/cf06c62062d03ba621705562145242f5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/cf06c62062d03ba621705562145242f5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/d05a09c00c708345d7a090c635450354.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/d05a09c00c708345d7a090c635450354.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/d0c0adadd0a16e429e8904a3af1a470e.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/d0c0adadd0a16e429e8904a3af1a470e.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/d5fc161490a6372e7a4ff76c31bb94ed.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/d5fc161490a6372e7a4ff76c31bb94ed.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/dbad113ee4116ff4748a3588ac55ceb9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/dbad113ee4116ff4748a3588ac55ceb9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/ddcafcaf479518d128d786826af932a4.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/ddcafcaf479518d128d786826af932a4.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/e4af8aa23a7133114cf3a56991af9879.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/e4af8aa23a7133114cf3a56991af9879.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/e4bc392c25020c4dd560b5756563798a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/e4bc392c25020c4dd560b5756563798a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/eb9bb97cd8f29d7be1d408c01e46d1c8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/eb9bb97cd8f29d7be1d408c01e46d1c8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/ece1cd253f27e476b442814ebc23f6d5.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/ece1cd253f27e476b442814ebc23f6d5.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/edf1e9262575b724447c2c9ad8d83666.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/edf1e9262575b724447c2c9ad8d83666.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/eee365a282360184d22ece137a8028f8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/eee365a282360184d22ece137a8028f8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/ef2a89b7042820c9e2418041c6d0af76.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/ef2a89b7042820c9e2418041c6d0af76.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181129/f3e35c240c11cd5f4b4e9afe941ed0a4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/f3e35c240c11cd5f4b4e9afe941ed0a4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181205/411bfbdd22ed14a87f3dcd8f595cafa1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/411bfbdd22ed14a87f3dcd8f595cafa1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181205/45f2b931750e5f648993229ae4e2ea91.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/45f2b931750e5f648993229ae4e2ea91.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181205/5846b99f285b63a49d700d7804795db9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/5846b99f285b63a49d700d7804795db9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181205/6b1aedcab14745e3030bf2d7eaff7684.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/6b1aedcab14745e3030bf2d7eaff7684.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181205/70259b66c796859a458d6866aa5dc0cf.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/70259b66c796859a458d6866aa5dc0cf.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181205/7b2a67b506c59c1867d095e67a165df7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/7b2a67b506c59c1867d095e67a165df7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181205/973ac18dd9e84f9b14b26569482a323e.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/973ac18dd9e84f9b14b26569482a323e.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181205/b548f8d3095f7d8495e4b5f085bf4bcb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/b548f8d3095f7d8495e4b5f085bf4bcb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181205/c6755293bbc317838e57037d546c23b7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/c6755293bbc317838e57037d546c23b7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181205/f3f361f0d1005f72e150a3e4e4b9a16b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/f3f361f0d1005f72e150a3e4e4b9a16b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181206/51a4394aca0f6b9861ebacfa37a90ec2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181206/51a4394aca0f6b9861ebacfa37a90ec2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181206/a37f70e00b0bcb82f1267dad2b96e490.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181206/a37f70e00b0bcb82f1267dad2b96e490.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181206/c7359c2a94080b7f633b7a5ec053eb37.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181206/c7359c2a94080b7f633b7a5ec053eb37.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181206/cfee5f24b1505d922e9a3c9423c66203.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181206/cfee5f24b1505d922e9a3c9423c66203.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181206/fb51320c95557f9b45b1f518e0bdde14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181206/fb51320c95557f9b45b1f518e0bdde14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181207/287213a67ae131e0bf078349beb6e815.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181207/287213a67ae131e0bf078349beb6e815.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181207/2c16831408b3681a803644fca1fa5535.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181207/2c16831408b3681a803644fca1fa5535.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181207/8626587da9075039a954530fe0e1776a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181207/8626587da9075039a954530fe0e1776a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181207/O1CN011hHSXCSYP5TBZKw_!!734584252.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181207/O1CN011hHSXCSYP5TBZKw_!!734584252.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181207/a924ae09511128ccf849347703f26186.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181207/a924ae09511128ccf849347703f26186.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181207/ca0f1379fc3f29d25501fe4b72651413.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181207/ca0f1379fc3f29d25501fe4b72651413.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20181207/f5756aa27afa98be8ff37f91b9cb65c8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20181207/f5756aa27afa98be8ff37f91b9cb65c8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190107/0648328c0e1ba4ad3e464be69107d2da.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190107/0648328c0e1ba4ad3e464be69107d2da.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190107/2d68565ad2a96e0c6c5026c62f61d2a1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190107/2d68565ad2a96e0c6c5026c62f61d2a1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190107/51648aac37014ff23c3a6f4b5b174592.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190107/51648aac37014ff23c3a6f4b5b174592.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190107/67305399eee16956045e74881bcc6520.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190107/67305399eee16956045e74881bcc6520.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190107/7cd263f8b459a49f75c14f2587aac509.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190107/7cd263f8b459a49f75c14f2587aac509.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190107/8dc6383cc592d578cf7d1e7129f1bab0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190107/8dc6383cc592d578cf7d1e7129f1bab0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190107/8e9bd23f36068fe2b1839a3ec42d7139.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190107/8e9bd23f36068fe2b1839a3ec42d7139.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190107/a2ecabae811dc6d9b4e70666aabe966f.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190107/a2ecabae811dc6d9b4e70666aabe966f.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190107/a6853cce758f915e2c4c37c817203504.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190107/a6853cce758f915e2c4c37c817203504.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190107/a75ec2735f72dd3e7ee0890ba3a16c50.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190107/a75ec2735f72dd3e7ee0890ba3a16c50.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190107/ade9b3ef2551a06d9e028f2cf6d3b5bb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190107/ade9b3ef2551a06d9e028f2cf6d3b5bb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190107/b4e858e16e618b1b4540e5e2f4b15791.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190107/b4e858e16e618b1b4540e5e2f4b15791.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190107/cb982c64f8f881b50abfbab7a134e78f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190107/cb982c64f8f881b50abfbab7a134e78f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190108/08038f35b20c499d3b04475d70d109da.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190108/08038f35b20c499d3b04475d70d109da.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190108/091d02cd48aea2422a944a48bfdf3958.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190108/091d02cd48aea2422a944a48bfdf3958.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190108/0fc92ade8b6d1769eab0b3dcd3d59ce9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190108/0fc92ade8b6d1769eab0b3dcd3d59ce9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190108/12a77d32439c8ba97187da7377be9c36.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190108/12a77d32439c8ba97187da7377be9c36.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190108/17a18f9ea0f6084796fb67fbc812e911.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190108/17a18f9ea0f6084796fb67fbc812e911.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190108/1cb7b503cb640e18f0217d115fa761ca.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190108/1cb7b503cb640e18f0217d115fa761ca.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190108/1ea18888869fe82c2f92042799ad0c4d.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190108/1ea18888869fe82c2f92042799ad0c4d.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190108/445d6b79683dd397a2b8717e50e12602.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190108/445d6b79683dd397a2b8717e50e12602.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190108/4f2526dfb122d4927e8a92082fa7a6e2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190108/4f2526dfb122d4927e8a92082fa7a6e2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190108/55d52f7d8de43760cc2f24f0bd07d88c.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190108/55d52f7d8de43760cc2f24f0bd07d88c.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190108/56e37a4556e33e5dde8097d9b7503c13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190108/56e37a4556e33e5dde8097d9b7503c13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190108/616642007efd3c133538d9f048c9767f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190108/616642007efd3c133538d9f048c9767f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190108/67b258d25a8b924cef471d759e5b4ffd.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190108/67b258d25a8b924cef471d759e5b4ffd.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190108/6ae8f4613cb44df1333c35450d276613.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190108/6ae8f4613cb44df1333c35450d276613.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190108/6f978d0006c9cd832e21309f50d8f6cd.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190108/6f978d0006c9cd832e21309f50d8f6cd.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190108/7bf08baefd2d6331e159d08f4356672a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190108/7bf08baefd2d6331e159d08f4356672a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190108/80ec49e370163bdaa0672138555317fb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190108/80ec49e370163bdaa0672138555317fb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190108/8eef68e25b3c33ee716150ebabad5e73.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190108/8eef68e25b3c33ee716150ebabad5e73.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190108/94f5708bf6e70dde87268771f161a9ba.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190108/94f5708bf6e70dde87268771f161a9ba.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190108/aed0f4c66c8ffdfa09790f47c13388cb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190108/aed0f4c66c8ffdfa09790f47c13388cb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190108/bfc5479f6b2ae64d96c97c44e362e0f4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190108/bfc5479f6b2ae64d96c97c44e362e0f4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190108/cf0c5a728d7f85a2b569961f5230e143.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190108/cf0c5a728d7f85a2b569961f5230e143.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190108/d282ae5c1f3f1d98fe04705d195c2dbc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190108/d282ae5c1f3f1d98fe04705d195c2dbc.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190108/e24def089fa95d13b4965a860340a28a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190108/e24def089fa95d13b4965a860340a28a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190108/f2a765e0a9324f7caa21cdef51da8f03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190108/f2a765e0a9324f7caa21cdef51da8f03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190108/fce82380b745a60c37c78fe02ea70681.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190108/fce82380b745a60c37c78fe02ea70681.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190109/162373249b64273884cf3d3f8b5d0443.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190109/162373249b64273884cf3d3f8b5d0443.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190109/438a13cc9649c667373c0f6c2fb3c766.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190109/438a13cc9649c667373c0f6c2fb3c766.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190109/507accf15c5b43facc2042e644288699.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190109/507accf15c5b43facc2042e644288699.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190109/b0402c9305b58ca6dfbbca2b26eaf0b4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190109/b0402c9305b58ca6dfbbca2b26eaf0b4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190109/e83e9c5617f14490835d8c5f9163098c.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190109/e83e9c5617f14490835d8c5f9163098c.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190109/ebd2452e2302bbe45a159b1172a85a08.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190109/ebd2452e2302bbe45a159b1172a85a08.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190109/fe5a0a5864cc98c98e742e59881cac9b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190109/fe5a0a5864cc98c98e742e59881cac9b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190115/d265c2d021e511e340108829f04f615d.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190115/d265c2d021e511e340108829f04f615d.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190116/03a2f58e11cb0f80512418cf1b6c2be0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190116/03a2f58e11cb0f80512418cf1b6c2be0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/goodsimg/20190116/e311d21f0abb5a213831ff7fa6cfe6e5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/goodsimg/20190116/e311d21f0abb5a213831ff7fa6cfe6e5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/about.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/about.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/blog1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/blog1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/blog2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/blog2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/blog3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/blog3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/cart-menu1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/cart-menu1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/cart-menu2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/cart-menu2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/cart1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/cart1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/cart2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/cart2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/image-profil.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/image-profil.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/parallax.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/parallax.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product-new1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/product-new1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product-new2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/product-new2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product-new3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/product-new3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product-new4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/product-new4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product-top1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/product-top1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product-top2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/product-top2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product-top3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/product-top3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/product-top4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/product-top4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/profile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/profile.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/shop-single.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/shop-single.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/slide1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/slide1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/slide2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/slide2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/slide3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/slide3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/testimonial1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/testimonial1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/testimonial2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/testimonial2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/testimonial3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/testimonial3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/user-comment.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/user-comment.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/wishlist1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/wishlist1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/wishlist2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/wishlist2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/animatedModal.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/animatedModal.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/contact-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/contact-form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/fakeLoader.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/fakeLoader.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.filterizr.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/jquery.filterizr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.filterizr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/jquery.filterizr.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.magnific-popup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/materialize.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/materialize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/materialize.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/materialize.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/owl.carousel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/portfolio.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1613496290">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="php" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Blade" value="1" />
+          <entry key="PHP" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="php" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PHP" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Order/OrderController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <folding>
+                <element signature="e#46#74#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Goods/GoodsController.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Order/OrderController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/encore/laravel-admin" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="211" />
+    <option name="y" value="27" />
+    <option name="width" value="937" />
+    <option name="height" value="732" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="group" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="group" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="group" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="group" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="group" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Goods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="group" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Order" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="Y:/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="420149a7-d50c-487b-956c-241035d96394" name="Default Changelist" comment="" />
+      <created>1558602707804</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558602707804</updated>
+      <workItem from="1558602709736" duration="26000" />
+      <workItem from="1558603044539" duration="267000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="293000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/resources/views/order/order.blade.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Goods/GoodsController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Order/OrderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="e#46#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
