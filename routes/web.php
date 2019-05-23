@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('index','Home\HomeController@index');
+Route::post('cartAdd','Cart\CartController@cartAdd');
+Route::get('cartList','Cart\CartController@cartList');
