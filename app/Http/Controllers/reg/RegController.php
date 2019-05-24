@@ -95,6 +95,9 @@ class RegController extends Controller
             if(password_verify($pass,$datain->pass)){
                 $token=$this->logintoken($datain->user_id);
                 $redis_token_key='logintokens:user_id'.$datain->user_id;
+                $rdd='user_id';
+                Redis::set($rdd,$datain->user_id);
+                Redis::expire($rdd,604800);
                 Redis::set($redis_token_key,$token);
                 Redis::expire($redis_token_key,604800);
 
