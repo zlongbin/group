@@ -57,14 +57,14 @@
 </html>
 <script>
     $(function() {
-        // var uid=1
-        //alert(user_id);
-        var uid={{$com_info->user_id}}
+
+        var user_id=session('user_id');
+        alert(user_id)
         $.ajax({
-            url: '/order/show',
+            url: '/ordershow',
             dataType: 'json',
             type: 'post',
-            data: {uid: uid},
+            data: {user_id: user_id},
             success: function (result) {
                 var _tr = "";
                 for (var i in result) {
