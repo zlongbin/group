@@ -17,6 +17,10 @@ class CartController extends Controller
         $goods_id = $request->input('goods_id');
         //$user_id = $request->input('user_id');
         $user_id=$request->session()->get('user_id');
+        $goodsUpdate = [
+            'goods_best'=>2
+        ];
+        DB::table('goods')->where('goods_id',$goods_id)->update($goodsUpdate);
         //dump($user_id);exit;
         //$user_id = 1;
         $goodsData = DB::table('goods')->where('goods_id',$goods_id)->get(['goods_selfprice'])->toArray();
