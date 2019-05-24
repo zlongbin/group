@@ -87,7 +87,7 @@
         <div class="container">
             <div class="row">
                 <div class="col s4">
-                    <a href="index.html" class="button-link">
+                    <a href="index" class="button-link">
                         <div class="menu-link">
                             <div class="icon">
                                 <i class="fa fa-home"></i>
@@ -129,7 +129,7 @@
                     </a>
                 </div>
                 <div class="col s4">
-                    <a href="cart.html" class="button-link">
+                    <a href="cartList" class="button-link">
                         <div class="menu-link">
                             <div class="icon">
                                 <i class="fa fa-shopping-cart"></i>
@@ -462,44 +462,44 @@
         <div class="row">
             <div class="col s6">
                 <div class="content">
-                    <img src="img/product-new1.png" alt="">
-                    <h6><a href="">Fashion Men's</a></h6>
+                    <img src="{{URL::asset('goodsimg/'.$goods_new[0]->goods_img)}}" alt="">
+                    <h6><a href="">{{$goods_new[0]->goods_name}}</a></h6>
                     <div class="price">
-                        $20 <span>$28</span>
+                        ${{$goods_new[0]->goods_selfprice}} <span></span>
                     </div>
-                    <button class="btn button-default">ADD TO CART</button>
+                    <button class="btn button-default" id="btn1" goods_id="{{$goods_new[0]->goods_id}}">ADD TO CART</button>
                 </div>
             </div>
             <div class="col s6">
                 <div class="content">
-                    <img src="img/product-new2.png" alt="">
-                    <h6><a href="">Fashion Men's</a></h6>
+                    <img src="{{URL::asset('goodsimg/'.$goods_new[1]->goods_img)}}" alt="">
+                    <h6><a href="">{{$goods_new[1]->goods_name}}</a></h6>
                     <div class="price">
-                        $20 <span>$28</span>
+                        ${{$goods_new[1]->goods_selfprice}} <span></span>
                     </div>
-                    <button class="btn button-default">ADD TO CART</button>
+                    <button class="btn button-default" id="btn2" goods_id="{{$goods_new[1]->goods_id}}">ADD TO CART</button>
                 </div>
             </div>
         </div>
         <div class="row margin-bottom">
             <div class="col s6">
                 <div class="content">
-                    <img src="img/product-new3.png" alt="">
-                    <h6><a href="">Fashion Men's</a></h6>
+                    <img src="{{URL::asset('goodsimg/'.$goods_new[2]->goods_img)}}" alt="">
+                    <h6><a href="">{{$goods_new[2]->goods_name}}</a></h6>
                     <div class="price">
-                        $20 <span>$28</span>
+                        ${{$goods_new[2]->goods_selfprice}} <span></span>
                     </div>
-                    <button class="btn button-default">ADD TO CART</button>
+                    <button class="btn button-default" id="btn3" goods_id="{{$goods_new[2]->goods_id}}">ADD TO CART</button>
                 </div>
             </div>
             <div class="col s6">
                 <div class="content">
-                    <img src="img/product-new4.png" alt="">
-                    <h6><a href="">Fashion Men's</a></h6>
+                    <img src="{{URL::asset('goodsimg/'.$goods_new[3]->goods_img)}}" alt="">
+                    <h6><a href="">{{$goods_new[3]->goods_name}}</a></h6>
                     <div class="price">
-                        $20 <span>$28</span>
+                        ${{$goods_new[3]->goods_selfprice}} <span></span>
                     </div>
-                    <button class="btn button-default">ADD TO CART</button>
+                    <button class="btn button-default" id="btn4" goods_id="{{$goods_new[3]->goods_id}}">ADD TO CART</button>
                 </div>
             </div>
         </div>
@@ -530,56 +530,56 @@
         <div class="row">
             <div class="col s6">
                 <div class="content">
-                    <img src="img/product-new1.png" alt="">
-                    <h6><a href="">Fashion Men's</a></h6>
+                    <img src="{{URL::asset('goodsimg/'.$goods_up[0]->goods_img)}}" alt="">
+                    <h6><a href="">{{$goods_up[0]->goods_name}}</a></h6>
                     <div class="price">
-                        $20 <span>$28</span>
+                        ${{$goods_up[0]->goods_selfprice}} <span></span>
                     </div>
-                    <button class="btn button-default">ADD TO CART</button>
+                    <button class="btn button-default" id="btn5" goods_id="{{$goods_up[0]->goods_id}}">ADD TO CART</button>
                 </div>
             </div>
             <div class="col s6">
                 <div class="content">
-                    <img src="img/product-new2.png" alt="">
-                    <h6><a href="">Fashion Men's</a></h6>
+                    <img src="{{URL::asset('goodsimg/'.$goods_up[1]->goods_img)}}" alt="">
+                    <h6><a href="">{{$goods_up[1]->goods_name}}</a></h6>
                     <div class="price">
-                        $20 <span>$28</span>
+                        ${{$goods_up[1]->goods_selfprice}} <span></span>
                     </div>
-                    <button class="btn button-default">ADD TO CART</button>
+                    <button class="btn button-default" id="btn6" goods_id="{{$goods_up[1]->goods_id}}">ADD TO CART</button>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col s6">
                 <div class="content">
-                    <img src="img/product-new3.png" alt="">
-                    <h6><a href="">Fashion Men's</a></h6>
+                    <img src="{{URL::asset('goodsimg/'.$goods_up[2]->goods_img)}}" alt="">
+                    <h6><a href="">{{$goods_up[2]->goods_name}}</a></h6>
                     <div class="price">
-                        $20 <span>$28</span>
+                        ${{$goods_up[2]->goods_selfprice}} <span></span>
                     </div>
-                    <button class="btn button-default">ADD TO CART</button>
+                    <button class="btn button-default" id="btn7" goods_id="{{$goods_up[2]->goods_id}}">ADD TO CART</button>
                 </div>
             </div>
             <div class="col s6">
                 <div class="content">
-                    <img src="img/product-new4.png" alt="">
-                    <h6><a href="">Fashion Men's</a></h6>
+                    <img src="{{URL::asset('goodsimg/'.$goods_up[3]->goods_img)}}" alt="">
+                    <h6><a href="">{{$goods_up[3]->goods_name}}</a></h6>
                     <div class="price">
-                        $20 <span>$28</span>
+                        ${{$goods_up[3]->goods_selfprice}} <span></span>
                     </div>
-                    <button class="btn button-default">ADD TO CART</button>
+                    <button class="btn button-default" id="btn8" goods_id="{{$goods_up[3]->goods_id}}">ADD TO CART</button>
                 </div>
             </div>
         </div>
-        <div class="pagination-product">
-            <ul>
-                <li class="active">1</li>
-                <li><a href="">2</a></li>
-                <li><a href="">3</a></li>
-                <li><a href="">4</a></li>
-                <li><a href="">5</a></li>
-            </ul>
-        </div>
+        {{--<div class="pagination-product">--}}
+            {{--<ul>--}}
+                {{--<li class="active">1</li>--}}
+                {{--<li><a href="">2</a></li>--}}
+                {{--<li><a href="">3</a></li>--}}
+                {{--<li><a href="">4</a></li>--}}
+                {{--<li><a href="">5</a></li>--}}
+            {{--</ul>--}}
+        {{--</div>--}}
     </div>
 </div>
 <!-- end product -->
@@ -619,3 +619,119 @@
 
 </body>
 </html>
+<script>
+    $(function(){
+        $('#btn1').click(function(){
+            var _this=$(this);
+            var goods_id=_this.attr('goods_id');
+            //console.log(goods_id);
+            $.ajax({
+                url:'cartAdd',
+                data:{goods_id:goods_id},
+                dataType:'json',
+                type:'post',
+                success:function(msg){
+                    console.log(msg);
+                }
+            })
+        })
+        $('#btn2').click(function(){
+            var _this=$(this);
+            var goods_id=_this.attr('goods_id');
+           // console.log(goods_id);
+            $.ajax({
+                url:'cartAdd',
+                data:{goods_id:goods_id},
+                dataType:'json',
+                type:'post',
+                success:function(msg){
+                    console.log(msg);
+                }
+            })
+        })
+        $('#btn3').click(function(){
+            var _this=$(this);
+            var goods_id=_this.attr('goods_id');
+            //console.log(goods_id);
+            $.ajax({
+                url:'cartAdd',
+                data:{goods_id:goods_id},
+                dataType:'json',
+                type:'post',
+                success:function(msg){
+                    console.log(msg);
+                }
+            })
+        })
+        $('#btn4').click(function(){
+            var _this=$(this);
+            var goods_id=_this.attr('goods_id');
+            //console.log(goods_id);
+            $.ajax({
+                url:'cartAdd',
+                data:{goods_id:goods_id},
+                dataType:'json',
+                type:'post',
+                success:function(msg){
+                    console.log(msg);
+                }
+            })
+        })
+        $('#btn5').click(function(){
+            var _this=$(this);
+            var goods_id=_this.attr('goods_id');
+            //console.log(goods_id);
+            $.ajax({
+                url:'cartAdd',
+                data:{goods_id:goods_id},
+                dataType:'json',
+                type:'post',
+                success:function(msg){
+                    console.log(msg);
+                }
+            })
+        })
+        $('#btn6').click(function(){
+            var _this=$(this);
+            var goods_id=_this.attr('goods_id');
+            //console.log(goods_id);
+            $.ajax({
+                url:'cartAdd',
+                data:{goods_id:goods_id},
+                dataType:'json',
+                type:'post',
+                success:function(msg){
+                    console.log(msg);
+                }
+            })
+        })
+        $('#btn7').click(function(){
+            var _this=$(this);
+            var goods_id=_this.attr('goods_id');
+            //console.log(goods_id);
+            $.ajax({
+                url:'cartAdd',
+                data:{goods_id:goods_id},
+                dataType:'json',
+                type:'post',
+                success:function(msg){
+                    console.log(msg);
+                }
+            })
+        })
+        $('#btn8').click(function(){
+            var _this=$(this);
+            var goods_id=_this.attr('goods_id');
+            //console.log(goods_id);
+            $.ajax({
+                url:'cartAdd',
+                data:{goods_id:goods_id},
+                dataType:'json',
+                type:'post',
+                success:function(msg){
+                    console.log(msg);
+                }
+            })
+        })
+    })
+</script>

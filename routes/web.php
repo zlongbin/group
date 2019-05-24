@@ -15,8 +15,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('index','Home\HomeController@index');//首页
+Route::post('cartAdd','Cart\CartController@cartAdd');//购物车添加
+Route::get('cartList','Cart\CartController@cartList');//购物车列表
+
 Route::get('/goods/goods',"Goods\GoodsController@goods");
-Route::get('/goods/goodsDetail',"Goods\GoodsController@goodsDetail");
+Route::post('/goods/goodsDetail',"Goods\GoodsController@goodsDetail");
 
 //注册跳转
 Route::get('reg', 'reg\RegController@reg');
@@ -27,5 +31,4 @@ Route::get('login', 'reg\RegController@login');
 
 Route::post('logins', 'reg\RegController@logins');
 
-Route::get('index', 'index\indexController@index');
 

@@ -51,7 +51,7 @@ class RegController extends Controller
                 'error'=>10004,
                 'msg'=>'已有此用户'
             ];
-            header("refresh:2;url=//group.app.com/reg");
+            header("refresh:2;url=/reg");
             return(json_encode($response,JSON_UNESCAPED_UNICODE));
         }
 
@@ -67,14 +67,14 @@ class RegController extends Controller
                 'error'=>10005,
                 'msg'=>'注册成功'
             ];
-            header("refresh:3;url=//group.app.com/login");
+            header("refresh:3;url=/login");
             return(json_encode($response,JSON_UNESCAPED_UNICODE));
         }else{
             $response=[
                 'error'=>10006,
                 'msg'=>'注册失败'
             ];
-            header("refresh:3;url=//group.app.com/reg");
+            header("refresh:3;url=/reg");
             return(json_encode($response,JSON_UNESCAPED_UNICODE));
         }
         
@@ -93,8 +93,8 @@ class RegController extends Controller
         $datain=RegModel::where(['name'=>$name])->first();
         if($datain){
             if(password_verify($pass,$datain->pass)){
-                $token=$this->logintoken($datain->id);
-                $redis_token_key='logintokens:id'.$datain->id;
+                $token=$this->logintoken($datain->user_id);
+                $redis_token_key='logintokens:user_id'.$datain->user_id;
                 Redis::set($redis_token_key,$token);
                 Redis::expire($redis_token_key,604800);
 
@@ -107,7 +107,7 @@ class RegController extends Controller
                         'token'=>$token
                     ],
                 ];
-                header("refresh:3;url=//group.app.com/index");
+                header("refresh:3;url=/index");
                 return (json_encode($response,JSON_UNESCAPED_UNICODE));
             }else{
                 $response=[
@@ -127,8 +127,8 @@ class RegController extends Controller
 
     }
 
-    public function logintoken($id){
-        return substr(sha1($id.time().Str::random(10)),5,15);
+    public function logintoken($user_id){
+        return substr(sha1($user_id.time().Str::random(10)),5,15);
     }
 
 }
