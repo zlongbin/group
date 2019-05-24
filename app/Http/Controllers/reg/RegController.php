@@ -93,8 +93,8 @@ class RegController extends Controller
         $datain=RegModel::where(['name'=>$name])->first();
         if($datain){
             if(password_verify($pass,$datain->pass)){
-                $token=$this->logintoken($datain->id);
-                $redis_token_key='logintokens:id'.$datain->id;
+                $token=$this->logintoken($datain->user_id);
+                $redis_token_key='logintokens:user_id'.$datain->user_id;
                 Redis::set($redis_token_key,$token);
                 Redis::expire($redis_token_key,604800);
 
@@ -127,8 +127,8 @@ class RegController extends Controller
 
     }
 
-    public function logintoken($id){
-        return substr(sha1($id.time().Str::random(10)),5,15);
+    public function logintoken($user_id){
+        return substr(sha1($user_id.time().Str::random(10)),5,15);
     }
 
 }
