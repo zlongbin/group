@@ -464,6 +464,7 @@
             data:{goods_id:goods_id},
             success:function(res){
                 console.log(res)
+				alert(res.msg)
             }
         })
     })

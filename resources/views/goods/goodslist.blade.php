@@ -452,6 +452,7 @@ $(document).on('click','.cart',function(){
         dataType:'json',
         success:function(res){
             console.log(res)
+			alert(res.msg)
         }
     })
 })
