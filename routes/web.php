@@ -15,10 +15,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+Route::get('/order','Order\OrderController@order');
+Route::post('/createOrder','Order\OrderController@createOrder');
+Route::post('/ordershow','Order\OrderController@Ordershow');
+
+Route::get('/pay/alipay/pay', 'Pay\PayController@pay');//去支付
+Route::post('/pay/alipay/notify','Pay\PayController@notify');        //支付宝支付 异步通知回调
+Route::get('/pay/alipay/return','Pay\PayController@aliReturn');
 Route::get('index','Home\HomeController@index');//首页
 Route::post('cartAdd','Cart\CartController@cartAdd');//购物车添加
 Route::get('cartList','Cart\CartController@cartList');//购物车列表
-
+//商品
 Route::get('/goods/goods',"Goods\GoodsController@goods");
 Route::get('/goods/goodsDetail',"Goods\GoodsController@goodsDetail");
 
@@ -30,5 +38,4 @@ Route::post('regs', 'reg\RegController@regs');
 Route::get('login', 'reg\RegController@login');
 
 Route::post('logins', 'reg\RegController@logins');
-
 

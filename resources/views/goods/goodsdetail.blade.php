@@ -369,8 +369,9 @@
 				<img src="/goodsimg/{{$goods->goods_img}}" alt="">
 				<h5>{{$goods->goods_name}}</h5>
 				<div class="price">${{$goods->goods_selfprice}} <span>${{$goods->goods_marketprice}}</span></div>
-				<p>{{$goods->goods_desc}}Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam eaque in non delectus, error iste veniam commodi mollitia, officia possimus, repellendus maiores doloribus provident. Itaque, ab perferendis nemo tempore! Accusamus</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam eaque in non delectus, error iste veniam commodi mollitia, officia possimus, repellendus maiores doloribus provident. Itaque, ab perferendis nemo tempore! Accusamus</p>
 				<button type="button" class="btn button-default cart" id="{{$goods->goods_id}}">ADD TO CART</button>
+				<!-- {{$goods->goods_desc}} -->
 			</div>
 			<div class="review">
 					<h5>1 reviews</h5>
@@ -458,11 +459,12 @@
         console.log(goods_id)
         $.ajax({
             type:"post",
-            url:"/carAdd",
+            url:"/cartAdd",
             dataType:'json',
             data:{goods_id:goods_id},
             success:function(res){
                 console.log(res)
+				alert(res.msg)
             }
         })
     })

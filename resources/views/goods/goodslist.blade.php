@@ -447,12 +447,26 @@ $(document).on('click','.cart',function(){
     var goods_id = $(this).attr('id')
     $.ajax({
         type:"post",
-        url:"/carAdd",
+        url:"/cartAdd",
+        data:{goods_id:goods_id},
+        dataType:'json',
+        success:function(res){
+            console.log(res)
+			alert(res.msg)
+        }
+    })
+})
+</script>
+
+<!-- $(document).on('click','.goodsdetail',function(){
+    var goods_id = $(this).attr('id')
+    $.ajax({
+        type:"post",
+        url:"goodsDetail",
         data:{goods_id:goods_id},
         dataType:'json',
         success:function(res){
             console.log(res)
         }
     })
-})
-</script>
+}) -->

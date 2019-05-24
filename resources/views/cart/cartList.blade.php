@@ -275,7 +275,7 @@
                             <h5>Name</h5>
                         </div>
                         <div class="col s7">
-                            <h5><a href="">{{$v->goods_name}}</a></h5>
+                            <h5><a href="/goods/goodsDetail?goods_id={{$v->goods_id}}">{{$v->goods_name}}</a></h5>
                         </div>
                     </div>
                     <div class="row">
@@ -351,8 +351,6 @@
         $('.btn').click(function(){
             var _this=$(this);
             var cart_id=_this.attr('cart_id');
-            //console.log(cart_id);
-            //alert(cart_id);
             $.ajax({
                 url:'createOrder',
                 data:{cart_id:cart_id},
