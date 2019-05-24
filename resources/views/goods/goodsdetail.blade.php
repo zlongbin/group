@@ -458,7 +458,7 @@
         console.log(goods_id)
         $.ajax({
             type:"post",
-            url:"/carAdd",
+            url:"/cartAdd",
             dataType:'json',
             data:{goods_id:goods_id},
             success:function(res){
