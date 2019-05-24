@@ -351,8 +351,6 @@
         $('.btn').click(function(){
             var _this=$(this);
             var cart_id=_this.attr('cart_id');
-            //console.log(cart_id);
-            //alert(cart_id);
             $.ajax({
                 url:'createOrder',
                 data:{cart_id:cart_id},
