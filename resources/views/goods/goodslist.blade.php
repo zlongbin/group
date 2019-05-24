@@ -459,7 +459,7 @@ $(document).on('click','.goodsdetail',function(){
     var goods_id = $(this).attr('id')
     $.ajax({
         type:"post",
-        url:"goods/goodsDetail",
+        url:"goodsDetail",
         data:{goods_id:goods_id},
         dataType:'json',
         success:function(res){
