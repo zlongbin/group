@@ -25,6 +25,7 @@ class VerifyCsrfToken extends Middleware
         'ordershow',
         '/pay/*',
         'cartAdd',
-        'goods/goodsDetail'
+        'goods/goodsDetail',
+        'logins'
     ];
 }
