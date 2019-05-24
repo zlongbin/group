@@ -383,7 +383,7 @@
 				<div class="col s6">
 					<div class="content">
 						<img src="/goodsimg/{{$v->goods_img}}" alt="">
-						<h6><a href="javscript:;" id="{{$v->goods_id}}" class="goodsdetail">{{$v->goods_name}}</a></h6>
+						<h6><a href="/goods/goodsDetail?goods_id={{$v->goods_id}}">{{$v->goods_name}}</a></h6>
 						<div class="price">
 							${{$v->goods_selfprice}}<span>${{$v->goods_marketprice}}</span>
 						</div>
@@ -452,10 +452,13 @@ $(document).on('click','.cart',function(){
         dataType:'json',
         success:function(res){
             console.log(res)
+			alert(res.msg)
         }
     })
 })
-$(document).on('click','.goodsdetail',function(){
+</script>
+
+<!-- $(document).on('click','.goodsdetail',function(){
     var goods_id = $(this).attr('id')
     $.ajax({
         type:"post",
@@ -466,6 +469,4 @@ $(document).on('click','.goodsdetail',function(){
             console.log(res)
         }
     })
-})
-
-</script>
+}) -->

@@ -97,7 +97,7 @@
                     </a>
                 </div>
                 <div class="col s4">
-                    <a href="product-list.html" class="button-link">
+                    <a href="goods/goods" class="button-link">
                         <div class="menu-link">
                             <div class="icon">
                                 <i class="fa fa-bars"></i>
@@ -225,7 +225,7 @@
                     </a>
                 </div>
                 <div class="col s4">
-                    <a href="login.html" class="button-link">
+                    <a href="login" class="button-link">
                         <div class="menu-link">
                             <div class="icon">
                                 <i class="fa fa-sign-in"></i>
@@ -235,7 +235,7 @@
                     </a>
                 </div>
                 <div class="col s4">
-                    <a href="register.html" class="button-link">
+                    <a href="reg" class="button-link">
                         <div class="menu-link">
                             <div class="icon">
                                 <i class="fa fa-user-plus"></i>
@@ -463,7 +463,7 @@
             <div class="col s6">
                 <div class="content">
                     <img src="{{URL::asset('goodsimg/'.$goods_new[0]->goods_img)}}" alt="">
-                    <h6><a href="">{{$goods_new[0]->goods_name}}</a></h6>
+                    <h6><a href="/goods/goodsDetail?goods_id={{$goods_new[0]->goods_id}}">{{$goods_new[0]->goods_name}}</a></h6>
                     <div class="price">
                         ${{$goods_new[0]->goods_selfprice}} <span></span>
                     </div>
@@ -473,7 +473,7 @@
             <div class="col s6">
                 <div class="content">
                     <img src="{{URL::asset('goodsimg/'.$goods_new[1]->goods_img)}}" alt="">
-                    <h6><a href="">{{$goods_new[1]->goods_name}}</a></h6>
+                    <h6><a href="/goods/goodsDetail?goods_id={{$goods_new[1]->goods_id}}">{{$goods_new[1]->goods_name}}</a></h6>
                     <div class="price">
                         ${{$goods_new[1]->goods_selfprice}} <span></span>
                     </div>
@@ -485,7 +485,7 @@
             <div class="col s6">
                 <div class="content">
                     <img src="{{URL::asset('goodsimg/'.$goods_new[2]->goods_img)}}" alt="">
-                    <h6><a href="">{{$goods_new[2]->goods_name}}</a></h6>
+                    <h6><a href="/goods/goodsDetail?goods_id={{$goods_new[2]->goods_id}}">{{$goods_new[2]->goods_name}}</a></h6>
                     <div class="price">
                         ${{$goods_new[2]->goods_selfprice}} <span></span>
                     </div>
@@ -495,7 +495,7 @@
             <div class="col s6">
                 <div class="content">
                     <img src="{{URL::asset('goodsimg/'.$goods_new[3]->goods_img)}}" alt="">
-                    <h6><a href="">{{$goods_new[3]->goods_name}}</a></h6>
+                    <h6><a href="/goods/goodsDetail?goods_id={{$goods_new[3]->goods_id}}">{{$goods_new[3]->goods_name}}</a></h6>
                     <div class="price">
                         ${{$goods_new[3]->goods_selfprice}} <span></span>
                     </div>
@@ -531,7 +531,7 @@
             <div class="col s6">
                 <div class="content">
                     <img src="{{URL::asset('goodsimg/'.$goods_up[0]->goods_img)}}" alt="">
-                    <h6><a href="">{{$goods_up[0]->goods_name}}</a></h6>
+                    <h6><a href="/goods/goodsDetail?goods_id={{$goods_up[0]->goods_id}}">{{$goods_up[0]->goods_name}}</a></h6>
                     <div class="price">
                         ${{$goods_up[0]->goods_selfprice}} <span></span>
                     </div>
@@ -541,7 +541,7 @@
             <div class="col s6">
                 <div class="content">
                     <img src="{{URL::asset('goodsimg/'.$goods_up[1]->goods_img)}}" alt="">
-                    <h6><a href="">{{$goods_up[1]->goods_name}}</a></h6>
+                    <h6><a href="/goods/goodsDetail?goods_id={{$goods_up[1]->goods_id}}">{{$goods_up[1]->goods_name}}</a></h6>
                     <div class="price">
                         ${{$goods_up[1]->goods_selfprice}} <span></span>
                     </div>
@@ -553,7 +553,7 @@
             <div class="col s6">
                 <div class="content">
                     <img src="{{URL::asset('goodsimg/'.$goods_up[2]->goods_img)}}" alt="">
-                    <h6><a href="">{{$goods_up[2]->goods_name}}</a></h6>
+                    <h6><a href="/goods/goodsDetail?goods_id={{$goods_up[2]->goods_id}}"></a></h6>
                     <div class="price">
                         ${{$goods_up[2]->goods_selfprice}} <span></span>
                     </div>
@@ -563,7 +563,7 @@
             <div class="col s6">
                 <div class="content">
                     <img src="{{URL::asset('goodsimg/'.$goods_up[3]->goods_img)}}" alt="">
-                    <h6><a href="">{{$goods_up[3]->goods_name}}</a></h6>
+                    <h6><a href="/goods/goodsDetail?goods_id={{$goods_up[3]->goods_id}}">{{$goods_up[3]->goods_name}}</a></h6>
                     <div class="price">
                         ${{$goods_up[3]->goods_selfprice}} <span></span>
                     </div>
@@ -631,7 +631,11 @@
                 dataType:'json',
                 type:'post',
                 success:function(msg){
-                    console.log(msg);
+                    if(msg.error == 0){
+                        alert(msg.msg);
+                    }else{
+                        alert(msg.msg);
+                    }
                 }
             })
         })
@@ -645,7 +649,11 @@
                 dataType:'json',
                 type:'post',
                 success:function(msg){
-                    console.log(msg);
+                    if(msg.error == 0){
+                        alert(msg.msg);
+                    }else{
+                        alert(msg.msg);
+                    }
                 }
             })
         })
@@ -659,7 +667,11 @@
                 dataType:'json',
                 type:'post',
                 success:function(msg){
-                    console.log(msg);
+                    if(msg.error == 0){
+                        alert(msg.msg);
+                    }else{
+                        alert(msg.msg);
+                    }
                 }
             })
         })
@@ -673,7 +685,11 @@
                 dataType:'json',
                 type:'post',
                 success:function(msg){
-                    console.log(msg);
+                    if(msg.error == 0){
+                        alert(msg.msg);
+                    }else{
+                        alert(msg.msg);
+                    }
                 }
             })
         })
@@ -687,7 +703,11 @@
                 dataType:'json',
                 type:'post',
                 success:function(msg){
-                    console.log(msg);
+                    if(msg.error == 0){
+                        alert(msg.msg);
+                    }else{
+                        alert(msg.msg);
+                    }
                 }
             })
         })
@@ -701,7 +721,11 @@
                 dataType:'json',
                 type:'post',
                 success:function(msg){
-                    console.log(msg);
+                    if(msg.error == 0){
+                        alert(msg.msg);
+                    }else{
+                        alert(msg.msg);
+                    }
                 }
             })
         })
@@ -715,7 +739,11 @@
                 dataType:'json',
                 type:'post',
                 success:function(msg){
-                    console.log(msg);
+                    if(msg.error == 0){
+                        alert(msg.msg);
+                    }else{
+                        alert(msg.msg);
+                    }
                 }
             })
         })
@@ -729,7 +757,11 @@
                 dataType:'json',
                 type:'post',
                 success:function(msg){
-                    console.log(msg);
+                    if(msg.error == 0){
+                        alert(msg.msg);
+                    }else{
+                        alert(msg.msg);
+                    }
                 }
             })
         })
