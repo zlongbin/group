@@ -275,7 +275,7 @@
                             <h5>Name</h5>
                         </div>
                         <div class="col s7">
-                            <h5><a href="">{{$v->goods_name}}</a></h5>
+                            <h5><a href="/goods/goodsDetail?goods_id={{$v->goods_id}}">{{$v->goods_name}}</a></h5>
                         </div>
                     </div>
                     <div class="row">
