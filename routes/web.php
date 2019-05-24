@@ -25,5 +25,4 @@ Route::get('login', 'reg\RegController@login');
 
 Route::post('logins', 'reg\RegController@logins');
 
-Route::get('index', 'index\indexController@index');
 
