@@ -7,48 +7,59 @@ use App\Http\Controllers\Controller;
 use App\Model\OrderModel;
 use App\Model\CartModel;
 use App\Model\GoodsModel;
+use Illuminate\Support\Facades\Redis;
 class OrderController extends Controller
 {
     //
     public function createOrder(){
         $cart_id=$_POST['cart_id'];
-        $res=CartModel::where(['cart_id'=>$cart_id])->first()->toArray();
+        $res=CartModel::where(['id'=>$cart_id])->first()->toArray();
+//        var_dump($res);die;
+        $goods_id=$res['goods_id'];
         $order_sn='one'.time();
         $data=[
                 'order_sn'=>$order_sn,
                 'user_id'=>$res['user_id'],
                 'add_price'=>$res['add_price'],
-                'add_time'=>time(),
+                'addtime'=>time(),
         ];
+//        var_dump($data);die;
         $arr=OrderModel::insert($data);
         if($arr){
             $cart_where=[
-                'cart_id'=>$cart_id
+                'id'=>$cart_id
             ];
-            CartModel::where($cart_where)->update(['is_del'=>2]);
-            $goods_store=GoodsModel::where(['goods_id'=>$res['goods_id']])->value('goods_num');//查询商品库存
+            $is_cart=[
+                'is_del'=>2,
+               'update_time'=>time()
+            ];
+//            var_dump($cart_where);die;
+            $cart=CartModel::where($cart_where)->update($is_cart);
+//            var_dump($cart);die;
+            $goods_store=GoodsModel::where(['goods_id'=>$goods_id])->value('goods_num');//查询商品库存
+//            var_dump($goods_store);die;
             GoodsModel::where(['goods_id'=>$res['goods_id']])->update(['goods_num'=>$goods_store-$res['buy_number']]);//下单减库存
             $res_data=[
                 'errno'=>0,
                 'msg'=>'下单成功'
             ];
-            header("Refresh:3;url=/order");
+//            header("refresh:3;url=/order");
+            return json_encode($res_data,JSON_UNESCAPED_UNICODE);
         }else{
             $res_data=[
                 'errno'=>5001,
                 'msg'=>'下单失败'
             ];
+            return json_encode($res_data,JSON_UNESCAPED_UNICODE);
         }
-        return json_encode($res_data);
+
     }
     public function Order()
     {
-        $add=$_POST['user_id'];
-        $com_info=CompanyModel::where(['uid'=>$add])->first();
-//                $data=[
-//                    'com_info'=>$com_info
-//                ];
-        return view('order.order',['com_info'=>$com_info]);
+        $ktoken='user_id';
+        $pas=Redis::get($ktoken);
+
+        return view('order.order');
     }
     public function Ordershow()
     {
@@ -61,11 +72,10 @@ class OrderController extends Controller
             return $data;
         }
         $order_where=[
-            'id'=>$user_id,
+            'user_id'=>$user_id,
             'is_delete'=>1,
         ];
-//        $order_data=OrderModel::join('api_goods','api_goods.goods_id','=','api_order.goods_id')->where($order_where)->get();
-        $res=CartModel::where($order_where)->first()->toArray();
+        $res=OrderModel::where($order_where)->first()->toArray();
         return json_encode($res);
     }
 }

@@ -16,7 +16,9 @@ class CartController extends Controller
     public function cartAdd(Request $request){
         $goods_id = $request->input('goods_id');
         //$user_id = $request->input('user_id');
-        $user_id = 1;
+        $user_id=$request->session()->get('user_id');
+        //dump($user_id);exit;
+        //$user_id = 1;
         $goodsData = DB::table('goods')->where('goods_id',$goods_id)->get(['goods_selfprice'])->toArray();
         $goods_selfprice = $goodsData[0]->goods_selfprice;
         //var_dump($goods_selfprice);exit;
@@ -47,7 +49,8 @@ class CartController extends Controller
             $update = [
                 'buy_number'=>$buy_number+1,
                 'add_price'=>$goods_selfprice*($buy_number+1),
-                'update_time'=>time()
+                'update_time'=>time(),
+                'is_del'=>1
             ];
             $updateInfo = DB::table('cart')->where('goods_id',$goods_id)->update($update);
             if($updateInfo){
@@ -60,9 +63,16 @@ class CartController extends Controller
         }
     }
 
-    public function cartList(){
-        $user_id = 1;
-        //var_dump($goods_id);exit;
+    public function cartList(Request $request){
+        $user_id=$request->session()->get('user_id');
+        //var_dump($user_id);exit;
+        if(empty($user_id)){
+            $response = [
+                'error'=>40019,
+                'msg'=>'您还没有登陆'
+            ];
+            die(json_encode($response,JSON_UNESCAPED_UNICODE));
+        }
         $where=[
             'user_id'=>$user_id,
             'is_del'=>1

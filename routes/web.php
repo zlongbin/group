@@ -26,6 +26,7 @@ Route::get('/pay/alipay/return','Pay\PayController@aliReturn');
 Route::get('index','Home\HomeController@index');//首页
 Route::post('cartAdd','Cart\CartController@cartAdd');//购物车添加
 Route::get('cartList','Cart\CartController@cartList');//购物车列表
+Route::get('wishList','With\WithController@wishList');//收藏列表
 //商品
 Route::get('/goods/goods',"Goods\GoodsController@goods");
 Route::get('/goods/goodsDetail',"Goods\GoodsController@goodsDetail");
