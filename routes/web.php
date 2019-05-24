@@ -38,3 +38,5 @@ Route::get('login', 'reg\RegController@login');
 
 Route::post('logins', 'reg\RegController@logins');
 
+//关于我们
+Route::get('about', 'About\AboutController@about');
