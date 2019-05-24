@@ -87,7 +87,7 @@
         <div class="container">
             <div class="row">
                 <div class="col s4">
-                    <a href="index" class="button-link">
+                    <a href="index.html" class="button-link">
                         <div class="menu-link">
                             <div class="icon">
                                 <i class="fa fa-home"></i>
@@ -97,7 +97,7 @@
                     </a>
                 </div>
                 <div class="col s4">
-                    <a href="goods/goods" class="button-link">
+                    <a href="product-list.html" class="button-link">
                         <div class="menu-link">
                             <div class="icon">
                                 <i class="fa fa-bars"></i>
@@ -119,7 +119,7 @@
             </div>
             <div class="row">
                 <div class="col s4">
-                    <a href="wishList" class="button-link">
+                    <a href="wishlist.html" class="button-link">
                         <div class="menu-link">
                             <div class="icon">
                                 <i class="fa fa-heart"></i>
@@ -129,7 +129,7 @@
                     </a>
                 </div>
                 <div class="col s4">
-                    <a href="cartList" class="button-link">
+                    <a href="cart.html" class="button-link">
                         <div class="menu-link">
                             <div class="icon">
                                 <i class="fa fa-shopping-cart"></i>
@@ -225,7 +225,7 @@
                     </a>
                 </div>
                 <div class="col s4">
-                    <a href="login" class="button-link">
+                    <a href="login.html" class="button-link">
                         <div class="menu-link">
                             <div class="icon">
                                 <i class="fa fa-sign-in"></i>
@@ -235,7 +235,7 @@
                     </a>
                 </div>
                 <div class="col s4">
-                    <a href="reg" class="button-link">
+                    <a href="register.html" class="button-link">
                         <div class="menu-link">
                             <div class="icon">
                                 <i class="fa fa-user-plus"></i>
@@ -362,227 +362,24 @@
 </div>
 <!-- end cart menu -->
 
-<!-- slider -->
-<div class="slider">
 
-    <ul class="slides">
-        <li>
-            <img src="img/slide1.jpg" alt="">
-            <div class="caption slider-content  center-align">
-                <h2>WELCOME TO MSTORE</h2>
-                <h4>Lorem ipsum dolor sit amet.</h4>
-                <a href="" class="btn button-default">SHOP NOW</a>
-            </div>
-        </li>
-        <li>
-            <img src="img/slide2.jpg" alt="">
-            <div class="caption slider-content center-align">
-                <h2>JACKETS BUSINESS</h2>
-                <h4>Lorem ipsum dolor sit amet.</h4>
-                <a href="" class="btn button-default">SHOP NOW</a>
-            </div>
-        </li>
-        <li>
-            <img src="img/slide3.jpg" alt="">
-            <div class="caption slider-content center-align">
-                <h2>FASHION SHOP</h2>
-                <h4>Lorem ipsum dolor sit amet.</h4>
-                <a href="" class="btn button-default">SHOP NOW</a>
-            </div>
-        </li>
-    </ul>
-
-</div>
-<!-- end slider -->
-
-<!-- features -->
-<div class="features section">
+<!-- about us -->
+<div class="pages section">
     <div class="container">
-        <div class="row">
-            <div class="col s6">
-                <div class="content">
-                    <div class="icon">
-                        <i class="fa fa-car"></i>
-                    </div>
-                    <h6>Free Shipping</h6>
-                    <p>Lorem ipsum dolor sit amet consectetur</p>
-                </div>
-            </div>
-            <div class="col s6">
-                <div class="content">
-                    <div class="icon">
-                        <i class="fa fa-dollar"></i>
-                    </div>
-                    <h6>Money Back</h6>
-                    <p>Lorem ipsum dolor sit amet consectetur</p>
-                </div>
-            </div>
+        <div class="pages-head">
+            <h3>关于我们</h3>
         </div>
-        <div class="row margin-bottom-0">
-            <div class="col s6">
-                <div class="content">
-                    <div class="icon">
-                        <i class="fa fa-lock"></i>
-                    </div>
-                    <h6>Secure Payment</h6>
-                    <p>Lorem ipsum dolor sit amet consectetur</p>
-                </div>
-            </div>
-            <div class="col s6">
-                <div class="content">
-                    <div class="icon">
-                        <i class="fa fa-support"></i>
-                    </div>
-                    <h6>24/7 Support</h6>
-                    <p>Lorem ipsum dolor sit amet consectetur</p>
-                </div>
-            </div>
+        <div class="about-us">
+            <img src="https://i04piccdn.sogoucdn.com/6a125336fe4b58c9" alt="" >
+            <p>书籍是全世界的营养品。生活里没有书籍，就好像没有阳光；智慧里没有书籍，就好像鸟儿没有翅膀。 —— 莎士比亚</p>
+            <p>Books are the nourishment of the world. Life without books is like no sunshine. Wisdom without books is like a bird without wings. -Shakespeare</p>
+            <p>航海远行的人，比先定个目的地，中途的指针，总是指着这个方向走，恐怕永无达到的日子。——李大钊</p>
+            <p>Those who go sailing for a long time always point to this direction before setting a destination. I'm afraid they will never reach it. -Li Dazhao</p>
         </div>
     </div>
 </div>
-<!-- end features -->
+<!-- end about us -->
 
-<!-- quote -->
-<div class="section quote">
-    <div class="container">
-        <h4>FASHION UP TO 50% OFF</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid ducimus illo hic iure eveniet</p>
-    </div>
-</div>
-<!-- end quote -->
-
-<!-- product -->
-<div class="section product">
-    <div class="container">
-        <div class="section-head">
-            <h4>NEW PRODUCT</h4>
-            <div class="divider-top"></div>
-            <div class="divider-bottom"></div>
-        </div>
-        <div class="row">
-            <div class="col s6">
-                <div class="content">
-                    <img src="{{URL::asset('goodsimg/'.$goods_new[0]->goods_img)}}" alt="">
-                    <h6><a href="/goods/goodsDetail?goods_id={{$goods_new[0]->goods_id}}">{{$goods_new[0]->goods_name}}</a></h6>
-                    <div class="price">
-                        ${{$goods_new[0]->goods_selfprice}} <span></span>
-                    </div>
-                    <button class="btn button-default" id="btn1" goods_id="{{$goods_new[0]->goods_id}}">ADD TO CART</button>
-                </div>
-            </div>
-            <div class="col s6">
-                <div class="content">
-                    <img src="{{URL::asset('goodsimg/'.$goods_new[1]->goods_img)}}" alt="">
-                    <h6><a href="/goods/goodsDetail?goods_id={{$goods_new[1]->goods_id}}">{{$goods_new[1]->goods_name}}</a></h6>
-                    <div class="price">
-                        ${{$goods_new[1]->goods_selfprice}} <span></span>
-                    </div>
-                    <button class="btn button-default" id="btn2" goods_id="{{$goods_new[1]->goods_id}}">ADD TO CART</button>
-                </div>
-            </div>
-        </div>
-        <div class="row margin-bottom">
-            <div class="col s6">
-                <div class="content">
-                    <img src="{{URL::asset('goodsimg/'.$goods_new[2]->goods_img)}}" alt="">
-                    <h6><a href="/goods/goodsDetail?goods_id={{$goods_new[2]->goods_id}}">{{$goods_new[2]->goods_name}}</a></h6>
-                    <div class="price">
-                        ${{$goods_new[2]->goods_selfprice}} <span></span>
-                    </div>
-                    <button class="btn button-default" id="btn3" goods_id="{{$goods_new[2]->goods_id}}">ADD TO CART</button>
-                </div>
-            </div>
-            <div class="col s6">
-                <div class="content">
-                    <img src="{{URL::asset('goodsimg/'.$goods_new[3]->goods_img)}}" alt="">
-                    <h6><a href="/goods/goodsDetail?goods_id={{$goods_new[3]->goods_id}}">{{$goods_new[3]->goods_name}}</a></h6>
-                    <div class="price">
-                        ${{$goods_new[3]->goods_selfprice}} <span></span>
-                    </div>
-                    <button class="btn button-default" id="btn4" goods_id="{{$goods_new[3]->goods_id}}">ADD TO CART</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- end product -->
-
-<!-- promo -->
-<div class="promo section">
-    <div class="container">
-        <div class="content">
-            <h4>PRODUCT BUNDLE</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-            <button class="btn button-default">SHOP NOW</button>
-        </div>
-    </div>
-</div>
-<!-- end promo -->
-
-<!-- product -->
-<div class="section product">
-    <div class="container">
-        <div class="section-head">
-            <h4>TOP PRODUCT</h4>
-            <div class="divider-top"></div>
-            <div class="divider-bottom"></div>
-        </div>
-        <div class="row">
-            <div class="col s6">
-                <div class="content">
-                    <img src="{{URL::asset('goodsimg/'.$goods_up[0]->goods_img)}}" alt="">
-                    <h6><a href="/goods/goodsDetail?goods_id={{$goods_up[0]->goods_id}}">{{$goods_up[0]->goods_name}}</a></h6>
-                    <div class="price">
-                        ${{$goods_up[0]->goods_selfprice}} <span></span>
-                    </div>
-                    <button class="btn button-default" id="btn5" goods_id="{{$goods_up[0]->goods_id}}">ADD TO CART</button>
-                </div>
-            </div>
-            <div class="col s6">
-                <div class="content">
-                    <img src="{{URL::asset('goodsimg/'.$goods_up[1]->goods_img)}}" alt="">
-                    <h6><a href="/goods/goodsDetail?goods_id={{$goods_up[1]->goods_id}}">{{$goods_up[1]->goods_name}}</a></h6>
-                    <div class="price">
-                        ${{$goods_up[1]->goods_selfprice}} <span></span>
-                    </div>
-                    <button class="btn button-default" id="btn6" goods_id="{{$goods_up[1]->goods_id}}">ADD TO CART</button>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col s6">
-                <div class="content">
-                    <img src="{{URL::asset('goodsimg/'.$goods_up[2]->goods_img)}}" alt="">
-                    <h6><a href="/goods/goodsDetail?goods_id={{$goods_up[2]->goods_id}}"></a></h6>
-                    <div class="price">
-                        ${{$goods_up[2]->goods_selfprice}} <span></span>
-                    </div>
-                    <button class="btn button-default" id="btn7" goods_id="{{$goods_up[2]->goods_id}}">ADD TO CART</button>
-                </div>
-            </div>
-            <div class="col s6">
-                <div class="content">
-                    <img src="{{URL::asset('goodsimg/'.$goods_up[3]->goods_img)}}" alt="">
-                    <h6><a href="/goods/goodsDetail?goods_id={{$goods_up[3]->goods_id}}">{{$goods_up[3]->goods_name}}</a></h6>
-                    <div class="price">
-                        ${{$goods_up[3]->goods_selfprice}} <span></span>
-                    </div>
-                    <button class="btn button-default" id="btn8" goods_id="{{$goods_up[3]->goods_id}}">ADD TO CART</button>
-                </div>
-            </div>
-        </div>
-        {{--<div class="pagination-product">--}}
-            {{--<ul>--}}
-                {{--<li class="active">1</li>--}}
-                {{--<li><a href="">2</a></li>--}}
-                {{--<li><a href="">3</a></li>--}}
-                {{--<li><a href="">4</a></li>--}}
-                {{--<li><a href="">5</a></li>--}}
-            {{--</ul>--}}
-        {{--</div>--}}
-    </div>
-</div>
-<!-- end product -->
 
 <!-- loader -->
 <div id="fakeLoader"></div>
@@ -619,151 +416,3 @@
 
 </body>
 </html>
-<script>
-    $(function(){
-        $('#btn1').click(function(){
-            var _this=$(this);
-            var goods_id=_this.attr('goods_id');
-            //console.log(goods_id);
-            $.ajax({
-                url:'cartAdd',
-                data:{goods_id:goods_id},
-                dataType:'json',
-                type:'post',
-                success:function(msg){
-                    if(msg.error == 0){
-                        alert(msg.msg);
-                    }else{
-                        alert(msg.msg);
-                    }
-                }
-            })
-        })
-        $('#btn2').click(function(){
-            var _this=$(this);
-            var goods_id=_this.attr('goods_id');
-           // console.log(goods_id);
-            $.ajax({
-                url:'cartAdd',
-                data:{goods_id:goods_id},
-                dataType:'json',
-                type:'post',
-                success:function(msg){
-                    if(msg.error == 0){
-                        alert(msg.msg);
-                    }else{
-                        alert(msg.msg);
-                    }
-                }
-            })
-        })
-        $('#btn3').click(function(){
-            var _this=$(this);
-            var goods_id=_this.attr('goods_id');
-            //console.log(goods_id);
-            $.ajax({
-                url:'cartAdd',
-                data:{goods_id:goods_id},
-                dataType:'json',
-                type:'post',
-                success:function(msg){
-                    if(msg.error == 0){
-                        alert(msg.msg);
-                    }else{
-                        alert(msg.msg);
-                    }
-                }
-            })
-        })
-        $('#btn4').click(function(){
-            var _this=$(this);
-            var goods_id=_this.attr('goods_id');
-            //console.log(goods_id);
-            $.ajax({
-                url:'cartAdd',
-                data:{goods_id:goods_id},
-                dataType:'json',
-                type:'post',
-                success:function(msg){
-                    if(msg.error == 0){
-                        alert(msg.msg);
-                    }else{
-                        alert(msg.msg);
-                    }
-                }
-            })
-        })
-        $('#btn5').click(function(){
-            var _this=$(this);
-            var goods_id=_this.attr('goods_id');
-            //console.log(goods_id);
-            $.ajax({
-                url:'cartAdd',
-                data:{goods_id:goods_id},
-                dataType:'json',
-                type:'post',
-                success:function(msg){
-                    if(msg.error == 0){
-                        alert(msg.msg);
-                    }else{
-                        alert(msg.msg);
-                    }
-                }
-            })
-        })
-        $('#btn6').click(function(){
-            var _this=$(this);
-            var goods_id=_this.attr('goods_id');
-            //console.log(goods_id);
-            $.ajax({
-                url:'cartAdd',
-                data:{goods_id:goods_id},
-                dataType:'json',
-                type:'post',
-                success:function(msg){
-                    if(msg.error == 0){
-                        alert(msg.msg);
-                    }else{
-                        alert(msg.msg);
-                    }
-                }
-            })
-        })
-        $('#btn7').click(function(){
-            var _this=$(this);
-            var goods_id=_this.attr('goods_id');
-            //console.log(goods_id);
-            $.ajax({
-                url:'cartAdd',
-                data:{goods_id:goods_id},
-                dataType:'json',
-                type:'post',
-                success:function(msg){
-                    if(msg.error == 0){
-                        alert(msg.msg);
-                    }else{
-                        alert(msg.msg);
-                    }
-                }
-            })
-        })
-        $('#btn8').click(function(){
-            var _this=$(this);
-            var goods_id=_this.attr('goods_id');
-            //console.log(goods_id);
-            $.ajax({
-                url:'cartAdd',
-                data:{goods_id:goods_id},
-                dataType:'json',
-                type:'post',
-                success:function(msg){
-                    if(msg.error == 0){
-                        alert(msg.msg);
-                    }else{
-                        alert(msg.msg);
-                    }
-                }
-            })
-        })
-    })
-</script>

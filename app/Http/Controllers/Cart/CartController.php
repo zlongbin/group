@@ -17,7 +17,11 @@ class CartController extends Controller
         $goods_id = $request->input('goods_id');
         //$user_id = $request->input('user_id');
         $user_id=$request->session()->get('user_id');
-        dump($user_id);exit;
+        $goodsUpdate = [
+            'goods_best'=>2
+        ];
+        DB::table('goods')->where('goods_id',$goods_id)->update($goodsUpdate);
+        //dump($user_id);exit;
         //$user_id = 1;
         $goodsData = DB::table('goods')->where('goods_id',$goods_id)->get(['goods_selfprice'])->toArray();
         $goods_selfprice = $goodsData[0]->goods_selfprice;
@@ -49,7 +53,8 @@ class CartController extends Controller
             $update = [
                 'buy_number'=>$buy_number+1,
                 'add_price'=>$goods_selfprice*($buy_number+1),
-                'update_time'=>time()
+                'update_time'=>time(),
+                'is_del'=>1
             ];
             $updateInfo = DB::table('cart')->where('goods_id',$goods_id)->update($update);
             if($updateInfo){
