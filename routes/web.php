@@ -23,3 +23,19 @@ Route::post('/ordershow','Order\OrderController@Ordershow');
 Route::get('/pay/alipay/pay', 'Pay\PayController@pay');//去支付
 Route::post('/pay/alipay/notify','Pay\PayController@notify');        //支付宝支付 异步通知回调
 Route::get('/pay/alipay/return','Pay\PayController@aliReturn');
+Route::get('index','Home\HomeController@index');//首页
+Route::post('cartAdd','Cart\CartController@cartAdd');//购物车添加
+Route::get('cartList','Cart\CartController@cartList');//购物车列表
+
+Route::get('/goods/goods',"Goods\GoodsController@goods");
+Route::post('/goods/goodsDetail',"Goods\GoodsController@goodsDetail");
+
+//注册跳转
+Route::get('reg', 'reg\RegController@reg');
+//注册
+Route::post('regs', 'reg\RegController@regs');
+
+Route::get('login', 'reg\RegController@login');
+
+Route::post('logins', 'reg\RegController@logins');
+
