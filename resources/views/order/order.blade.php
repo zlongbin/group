@@ -31,55 +31,49 @@
         <div class="col-md-2"></div>
         <div class="col-md-8">
             <table class="table">
+                {{ csrf_field() }}
+                <input type="hidden" class="add" value="{{$user_id}}" name="user_id">
             <tr>
                 <td class="active">订单号</td>
-                {{--<td class="success"></td>--}}
                 <td class="warning">总价</td>
                 <td class="danger">下单时间</td>
                 <td class="info">操作</td>
             </tr>
-            <div class="zf">
+                <tbody id="show">
                 <tr>
                     <td class="active"></td>
-                    {{--<td class="success"></td>--}}
                     <td class="warning"></td>
                     <td class="danger"></td>
                     <td class="info"></td>
                 </tr>
-            </div>
+                </tbody>
             </table>
         </div>
         <div class="col-md-2"></div>
     </div>
-
-
 </body>
 </html>
 <script>
     $(function() {
-
-        var user_id=session('user_id');
-        alert(user_id)
+        // alert(111);
+        var user_id=$(".add").val();
         $.ajax({
             url: '/ordershow',
             dataType: 'json',
             type: 'post',
-            data: {user_id: user_id},
+            data: {user_id:user_id},
             success: function (result) {
+                // alert(result)
                 var _tr = "";
-                for (var i in result) {
-                    _tr += "<tr oid='" + result[i]['oid'] + "'>"
-                        + "<td class='active'>" + result[i]['order_sn'] + "</td>"
-                        // + "<td class='success'>" + result[i]['goods_name'] + "</td>"
-                        + "<td class='warning'>" + result[i]['order_amount'] + "</td>"
-                        + "<td class='danger'>" + result[i]['addtime'] + "</td>"
-                        //+"<td><button class='del btn btn-info'>去支付</button></td>"
-                        + "<td class='info'><a href='http://1809.one.com/pay/alipay/pay?oid=" + result[i]['oid'] + "'>去结算</a></td>"
-                        + "</tr>"
+                for(var i in result){
+                    _tr+="<tr>"
+                        +"<td class='active'>"+result[i]['order_sn']+"</td>"
+                        +"<td class='warning'>￥"+result[i]['add_price']+"</td>"
+                        +"<td class='danger'>"+result[i]['addtime']+"</td>"
+                        +"<td class='info'><a href='/pay/alipay/pay?oid="+result[i]['oid']+"'>去结算</a></td>"
+                        +"<tr>"
                 }
-
-                $('.zf').html(_tr)
-
+                $("#show").html(_tr)
             }
         })
     })

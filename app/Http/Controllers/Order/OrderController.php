@@ -56,10 +56,13 @@ class OrderController extends Controller
     }
     public function Order()
     {
-        $ktoken='user_id';
-        $pas=Redis::get($ktoken);
-
-        return view('order.order');
+        $arr=session('user_id');
+//        echo $arr;die;
+        $user=[
+            'user_id'=>$arr
+        ];
+//        var_dump($user);die;
+        return view('order.order',$user);
     }
     public function Ordershow()
     {
@@ -75,7 +78,9 @@ class OrderController extends Controller
             'user_id'=>$user_id,
             'is_delete'=>1,
         ];
-        $res=OrderModel::where($order_where)->first()->toArray();
-        return json_encode($res);
+        $res=OrderModel::where($order_where)->get();
+//        return json_encode($res,true);
+        return $res;
+
     }
 }
