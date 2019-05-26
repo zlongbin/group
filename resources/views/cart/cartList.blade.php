@@ -358,6 +358,7 @@
                 type:'post',
                 success:function(msg){
                     console.log(msg);
+                    location.href="/order"
                 }
             })
         })

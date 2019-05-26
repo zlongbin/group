@@ -40,3 +40,9 @@ Route::post('logins', 'reg\RegController@logins');
 
 //关于我们
 Route::get('about', 'About\AboutController@about');
+
+
+
+Route::get('header', 'HeaderController@header');
+Route::get('client', 'HeaderController@client');
+
