@@ -17,9 +17,11 @@ class WebController extends Controller
         // var_dump($redirect_uri);echo "<hr>";
         $url =  'https://open.weixin.qq.com/connect/oauth2/authorize?appid='.env('WX_APP_ID').'&redirect_uri='.$redirect_uri.'&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect';
         // echo $url;
-        if(strpos($_SERVER['HTTP_USER_AGENT'],'MicroMessenger')){
-            header("location:$url");
-        }
+        header("location:$url");
+
+        // if(strpos($_SERVER['HTTP_USER_AGENT'],'MicroMessenger')){
+        //     header("location:$url");
+        // }
     }
     public function getU(){
         $code = $_GET['code'];
