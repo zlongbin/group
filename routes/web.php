@@ -12,7 +12,7 @@ use Illuminate\Http\Request;
 */
 
 
-
+// 订单
 Route::get('/order','Order\OrderController@order');
 Route::post('/createOrder','Order\OrderController@createOrder');
 Route::post('/ordershow','Order\OrderController@Ordershow');
@@ -29,30 +29,31 @@ Route::get('wishList','With\WithController@wishList');//收藏列表
 Route::get('/goods/goods',"Goods\GoodsController@goods");
 Route::get('/goods/goodsDetail',"Goods\GoodsController@goodsDetail");
 
-//注册跳转
+//注册登录
 Route::get('reg', 'reg\RegController@reg');
-//注册
 Route::post('regs', 'reg\RegController@regs');
-
 Route::get('login', 'reg\RegController@login');
-
 Route::post('logins', 'reg\RegController@logins');
 
 //关于我们
 Route::get('about', 'About\AboutController@about');
 
-<<<<<<< HEAD
 //微信支付
 Route::get('/weixin/pay/test/{oid}','Pay\WeixinController@test');     //微信支付
 Route::post('/weixin/pay/notice','Pay\WeixinController@notice');     //微信支付通知回调
-=======
 
 
 Route::get('header', 'HeaderController@header');
 Route::get('client', 'HeaderController@client');
+Route::get('footer', 'HeaderController@footer');
+Route::get('wxWeb', 'HeaderController@wxWeb');
+Route::get('wxWeb/getu', 'HeaderController@getU');
+Route::get('wxWeb/bind', 'HeaderController@bind');
+
+Route::post('wxWeb', 'Weixin/WebController@wxWeb');
+Route::get('wxWeb/getu', 'Weixin/WebController@getU');
+Route::post('wxWeb/bind', 'Weixin/WebController@bind');
 
 Route::get('getCode','Code\CodeController@getCode');
 Route::get('telChat','Code\CodeController@telChat');
 Route::post('tel','Code\CodeController@tel');
-
->>>>>>> c496651fcb9c86b5665d535bc084d5ab016a3756

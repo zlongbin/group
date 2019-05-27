@@ -1,25 +1,14 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\WeiXin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Model\OrderModel;
-use App\Model\CartModel;
-use App\Model\GoodsModel;
-use Illuminate\Support\Facades\Redis;
-class HeaderController extends Controller{
-    public function header(){
-        return view('layout.header');
-    }
-    public function client(){
-        return view('layout.client');
-    }
-    public function footer(){
-        echo "<pre>";print_r($_SERVER);echo "</pre>";
-        return view('layout.footer');
-        // [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    }
+use App\Model\RegModel;
+use App\Model\WebModel;
+
+class WebController extends Controller
+{
     /**
      * 微信授权
      */
@@ -41,7 +30,7 @@ class HeaderController extends Controller{
         $access_token = $response['access_token'];
         $openid = $response['openid'];
         // 根据openid判断用户是否存在
-        $wx_user = WebUserModel::where(['openid'=>$openid])->first();
+        $wx_user = WebModel::where(['openid'=>$openid])->first();
         if(session('user_id')){
             $uid =session('user_id');
         }else{
@@ -74,7 +63,7 @@ class HeaderController extends Controller{
                 'sex'=>$user_Info['sex'],
                 'headimgurl'=>$user_Info['headimgurl']
             ];
-            $id = WebUserModel::insert($Info);
+            $id = WebModel::insert($Info);
             $response = [
                 'error' => 0,
                 'msg'   => '欢迎访问此网页',
@@ -93,13 +82,13 @@ class HeaderController extends Controller{
     public function bind(Request $request){
         $uid = $request->input('uid');
         $id = $request->input('id');
-        $userinfo = UserModel::where('user_id',$uid)->first();
+        $userinfo = RegModel::where('user_id',$uid)->first();
         $data = [
-            'uid'   => $userinfo['user_id'],
-            'uname' => $userinfo['name'],
-            'uemail'=> $userinfo['email']
+            'user_id'   => $userinfo['user_id'],
+            'user_name' => $userinfo['name'],
+            'user_email'=> $userinfo['email']
         ];
-        $res = WxWebModel::where(['id' => $id])->update($data); 
+        $res = WebModel::where(['id' => $id])->update($data); 
         if($res){
             $response = [
                 'error' => 0,
