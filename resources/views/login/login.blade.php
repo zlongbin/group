@@ -382,6 +382,7 @@
                     <a href=""><h6>Forgot Password ?</h6></a>
                     <input type="submit" class="btn button-default" value="登录">
                 </form>
+                <a href="/wxWeb">微信授权</a>
             </div>
         </div>
     </div>

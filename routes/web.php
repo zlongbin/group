@@ -50,9 +50,8 @@ Route::get('wxWeb', 'HeaderController@wxWeb');
 Route::get('wxWeb/getu', 'HeaderController@getU');
 Route::get('wxWeb/bind', 'HeaderController@bind');
 
-Route::post('wxWeb', 'WeiXin\WebController@wxWeb');
+Route::get('wxWeb', 'WeiXin\WebController@wxWeb');
 Route::get('wxWeb/getu', 'WeiXin\WebController@getU');
-Route::post('wxWeb/bind', 'WeiXin\WebController@bind');
 
 Route::post('getCode','Code\CodeController@getCode');
 Route::get('telChat','Code\CodeController@telChat');
