@@ -14,7 +14,6 @@
 </html>
 <script src="{{ URL::asset('js/qrcode/qrcode.min.js') }}"></script>
 <script type="text/javascript">
-    alert ("{{$url}}")
     var qrcode = new QRCode(document.getElementById('qrcode'), {
         text: "{{$url}}",
         width: 256,
