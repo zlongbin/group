@@ -29,6 +29,8 @@ class VerifyCsrfToken extends Middleware
         'logins',
         'weixin',
         'tel',
+        'wxWeb',
+        'wxWeb/*',
         'getCode'
     ];
 }
