@@ -38,7 +38,7 @@ class PayController extends Controller
     public function pay()
     {
         $oid=$_GET['oid'];
-        print_r($oid);
+//        print_r($oid);
         //验证订单状态 是否已支付 是否是有效订单
         $order_info = OrderModel::where(['oid'=>$oid])->first()->toArray();
 //        print_r($order_info);die;

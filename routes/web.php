@@ -1,5 +1,5 @@
 <?php
-
+use Illuminate\Http\Request;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -38,6 +38,9 @@ Route::post('logins', 'reg\RegController@logins');
 //关于我们
 Route::get('about', 'About\AboutController@about');
 
+//微信支付
+Route::get('/weixin/pay/test/{oid}','Pay\WeixinController@test');     //微信支付
+Route::post('/weixin/pay/notice','Pay\WeixinController@notice');     //微信支付通知回调
 
 
 Route::get('header', 'HeaderController@header');
@@ -50,3 +53,7 @@ Route::get('wxWeb/bind', 'HeaderController@bind');
 Route::post('wxWeb', 'Weixin/WebController@wxWeb');
 Route::get('wxWeb/getu', 'Weixin/WebController@getU');
 Route::post('wxWeb/bind', 'Weixin/WebController@bind');
+
+Route::get('getCode','Code\CodeController@getCode');
+Route::get('telChat','Code\CodeController@telChat');
+Route::post('tel','Code\CodeController@tel');
