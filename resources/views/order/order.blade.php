@@ -70,7 +70,7 @@
                         +"<td class='active'>"+result[i]['order_sn']+"</td>"
                         +"<td class='warning'>￥"+result[i]['add_price']+"</td>"
                         +"<td class='danger'>"+result[i]['addtime']+"</td>"
-                        +"<td class='info'><a href='/pay/alipay/pay?oid="+result[i]['oid']+"'>去结算</a></td>"
+                        +"<td class='info'><a href='/pay/alipay/pay?oid="+result[i]['oid']+"'>支付宝</a>||<a href='/weixin/pay/test/"+result[i]['oid']+"'>微信</a></td>"
                         +"<tr>"
                 }
                 $("#show").html(_tr)

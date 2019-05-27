@@ -26,6 +26,7 @@ class VerifyCsrfToken extends Middleware
         '/pay/*',
         'cartAdd',
         'goods/goodsDetail',
-        'logins'
+        'logins',
+        'weixin'
     ];
 }

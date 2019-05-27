@@ -40,3 +40,7 @@ Route::post('logins', 'reg\RegController@logins');
 
 //关于我们
 Route::get('about', 'About\AboutController@about');
+
+//微信支付
+Route::get('/weixin/pay/test/{oid}','Pay\WeixinController@test');     //微信支付
+Route::post('/weixin/pay/notice','Pay\WeixinController@notice');     //微信支付通知回调
