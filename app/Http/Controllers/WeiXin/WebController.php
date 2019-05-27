@@ -18,7 +18,7 @@ class WebController extends Controller
         $url =  'https://open.weixin.qq.com/connect/oauth2/authorize?appid='.env('WX_APP_ID').'&redirect_uri='.$redirect_uri.'&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect';
         // echo $url;
         header("location:$url");
-
+        // echo "<pre>";print_r($_SERVER);echo "</pre>";   
         // if(strpos($_SERVER['HTTP_USER_AGENT'],'MicroMessenger')){
         //     header("location:$url");
         // }
@@ -76,7 +76,7 @@ class WebController extends Controller
                 ]
             ];
         }
-        die(json_encode($response,JSON_UNESCAPED_UNICODE));
+        return json_encode($response,JSON_UNESCAPED_UNICODE);
     }
     /**
      * 绑定用户
