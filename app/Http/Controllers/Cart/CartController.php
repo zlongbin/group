@@ -17,6 +17,7 @@ class CartController extends Controller
         $goods_id = $request->input('goods_id');
         //$user_id = $request->input('user_id');
         $user_id=$request->session()->get('user_id');
+        //dump($user_id);exit;
         $goodsUpdate = [
             'goods_best'=>2
         ];
@@ -69,7 +70,7 @@ class CartController extends Controller
 
     public function cartList(Request $request){
         $user_id=$request->session()->get('user_id');
-        //var_dump($user_id);exit;
+//        var_dump($user_id);exit;
         if(empty($user_id)){
             $response = [
                 'error'=>40019,

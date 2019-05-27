@@ -1,5 +1,5 @@
 <?php
-
+use Illuminate\Http\Request;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -45,4 +45,8 @@ Route::get('about', 'About\AboutController@about');
 
 Route::get('header', 'HeaderController@header');
 Route::get('client', 'HeaderController@client');
+
+Route::get('getCode','Code\CodeController@getCode');
+Route::get('telChat','Code\CodeController@telChat');
+Route::post('tel','Code\CodeController@tel');
 
