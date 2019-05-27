@@ -227,5 +227,10 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
     ],
+    "send"=>[
+        "username"=>"zhanghaowei",
+        "pwd"=>"wsxd1234",
+        "url"=>"http://sms.106jiekou.com/utf8/sms.aspx"
+    ]
 
 ];
