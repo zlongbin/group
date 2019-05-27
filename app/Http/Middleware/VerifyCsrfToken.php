@@ -27,10 +27,10 @@ class VerifyCsrfToken extends Middleware
         'cartAdd',
         'goods/goodsDetail',
         'logins',
-<<<<<<< HEAD
-        'weixin'
-=======
-        'tel'
->>>>>>> c496651fcb9c86b5665d535bc084d5ab016a3756
+        'weixin',
+        'tel',
+        'wxWeb',
+        'wxWeb/*',
+        'getCode'
     ];
 }

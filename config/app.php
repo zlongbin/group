@@ -228,8 +228,8 @@ return [
 
     ],
     "send"=>[
-        "username"=>"zhanghaowei",
-        "pwd"=>"wsxd1234",
+        "username"=>"zhaoda",
+        "pwd"=>"zhaoda",
         "url"=>"http://sms.106jiekou.com/utf8/sms.aspx"
     ]
 
