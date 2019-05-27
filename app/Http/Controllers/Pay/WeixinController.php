@@ -200,6 +200,7 @@ class WeixinController extends Controller
 
         $response = '<xml><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>';
         echo $response;
+        header("refresh:3;url=/index");
 
     }
 
