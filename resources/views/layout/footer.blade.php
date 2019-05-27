@@ -10,7 +10,7 @@
                 alert(res.msg)
                 if(res.data.is_uid == 1&&res.data.uid != ''){
                     var con;
-                    con=confirm("你喜欢玫瑰花么?"); //在页面上弹出对话框
+                    con=confirm("是否绑定原有账号?"); //在页面上弹出对话框
                     if(con==true){
                         $.ajax({
                             type:'post',
