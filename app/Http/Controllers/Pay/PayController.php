@@ -234,6 +234,7 @@ class PayController extends Controller
     public function aliReturn()
     {
         echo "订单： ".$_GET['order_sn'] . ' 支付成功，正在跳转';
+        header("refresh:3;url=/index");
 //        echo '<pre>';print_r($_GET);echo '</pre>';
     }
 }
