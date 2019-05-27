@@ -53,8 +53,8 @@
                     <li><a href="setting.html"><i class="fa fa-cog"></i>Settings</a></li>
                     <li><a href="about-us.html"><i class="fa fa-user"></i>About Us</a></li>
                     <li><a href="contact.html"><i class="fa fa-envelope-o"></i>Contact Us</a></li>
-                    <li><a href="login.html"><i class="fa fa-sign-in"></i>Login</a></li>
-                    <li><a href="register.html"><i class="fa fa-user-plus"></i>Register</a></li>
+                    <li><a href="login"><i class="fa fa-sign-in"></i>Login</a></li>
+                    <li><a href="reg"><i class="fa fa-user-plus"></i>Register</a></li>
                 </ul>
             </div>
             <!-- end side nav right-->
@@ -63,10 +63,10 @@
             <div class="navbar-bottom">
                 <div class="row">
                     <div class="col s2">
-                        <a href="index.html"><i class="fa fa-home"></i></a>
+                        <a href="index"><i class="fa fa-home"></i></a>
                     </div>
                     <div class="col s2">
-                        <a href="wishlist.html"><i class="fa fa-heart"></i></a>
+                        <a href="wishList"><i class="fa fa-heart"></i></a>
                     </div>
                     <div class="col s4">
                         <div class="bar-center">
@@ -93,7 +93,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col s4">
-                                <a href="index.html" class="button-link">
+                                <a href="/" class="button-link">
                                     <div class="menu-link">
                                         <div class="icon">
                                             <i class="fa fa-home"></i>
@@ -103,7 +103,7 @@
                                 </a>
                             </div>
                             <div class="col s4">
-                                <a href="product-list.html" class="button-link">
+                                <a href="/goods/goods" class="button-link">
                                     <div class="menu-link">
                                         <div class="icon">
                                             <i class="fa fa-bars"></i>
@@ -113,7 +113,7 @@
                                 </a>
                             </div>
                             <div class="col s4">
-                                <a href="shop-single.html" class="button-link">
+                                <a href="/goods/goodsDetail?goods_id=1" class="button-link">
                                     <div class="menu-link">
                                         <div class="icon">
                                             <i class="fa fa-eye"></i>
@@ -125,7 +125,7 @@
                         </div>
                         <div class="row">
                             <div class="col s4">
-                                <a href="wishlist.html" class="button-link">
+                                <a href="/wishList" class="button-link">
                                     <div class="menu-link">
                                         <div class="icon">
                                             <i class="fa fa-heart"></i>
@@ -135,7 +135,7 @@
                                 </a>
                             </div>
                             <div class="col s4">
-                                <a href="cart.html" class="button-link">
+                                <a href="/cartList" class="button-link">
                                     <div class="menu-link">
                                         <div class="icon">
                                             <i class="fa fa-shopping-cart"></i>
@@ -231,7 +231,7 @@
                                 </a>
                             </div>
                             <div class="col s4">
-                                <a href="login.html" class="button-link">
+                                <a href="/login" class="button-link">
                                     <div class="menu-link">
                                         <div class="icon">
                                             <i class="fa fa-sign-in"></i>
@@ -241,7 +241,7 @@
                                 </a>
                             </div>
                             <div class="col s4">
-                                <a href="register.html" class="button-link">
+                                <a href="/reg" class="button-link">
                                     <div class="menu-link">
                                         <div class="icon">
                                             <i class="fa fa-user-plus"></i>
