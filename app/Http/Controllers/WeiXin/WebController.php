@@ -58,7 +58,7 @@ class WebController extends Controller
             $response = '欢迎访问';
         }
         session('user_id',$user_id);
-        header('refresh:3.url=/');
+        header('refresh:3,url=/');
         die($response);
     }
 }
