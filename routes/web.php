@@ -54,6 +54,6 @@ Route::post('wxWeb', 'Weixin\WebController@wxWeb');
 Route::get('wxWeb/getu', 'Weixin\WebController@getU');
 Route::post('wxWeb/bind', 'Weixin\WebController@bind');
 
-Route::get('getCode','Code\CodeController@getCode');
+Route::post('getCode','Code\CodeController@getCode');
 Route::get('telChat','Code\CodeController@telChat');
 Route::post('tel','Code\CodeController@tel');
